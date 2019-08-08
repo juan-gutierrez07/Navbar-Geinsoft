@@ -1,0 +1,57 @@
+#menu-bar{
+    display:  none;
+
+    
+
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+    
+}
+.Navbar #opciones{
+    position: relative;;
+    top: 50px;
+    left: -25px;
+    width: 120%;
+    height: 100vh;
+    background: #5485E8;
+    display: block;
+    color: #666666;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255,255, 0.5);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+.Navbar #opciones:hover{
+    background: #E1EAFA;
+}
+#menu-bar:checked ~.Navbar #opciones{
+    transform: translateX(0%);
+
+}
+.Navbar #menu-bar:hover{
+    background: #4009F2;
+}
+@media(min-width:1024px){
+    .Navbar #opciones{
+        left: -15px;
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        background: transparent;
+        border:none;
+
+    }
+    header label{
+        display: none;
+    }
+    
+}
