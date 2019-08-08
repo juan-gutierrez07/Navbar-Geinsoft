@@ -17,18 +17,18 @@ header label{
     left: -25px;
     width: 120%;
     height: 100vh;
-    background: #0071bc;
+    background: #5485E8;
     display: block;
     color: white;
     height: 50px;
     text-decoration: none;
     padding: 15px;
-    border-bottom: 1px solid rgba(255, 255,255, 0.5);
+    border-bottom: 1px solid rgba(255, 255,255, 0.2);
     transition: all 0.5s;
     transform: translateX(-100%);
 }
 .Navbar #opciones:hover{
-    background: #E1EAFA;
+    background:#B5C9EB;
 }
 #menu-bar:checked ~.Navbar #opciones{
     transform: translateX(0%);
@@ -46,10 +46,12 @@ header label{
         transform: translateX(0%);
         float: right;
         display: flex;
-        background: transparent;
         border:none;
-
+        background:transparent;
+        color: #666666;
+      
     }
+    
     header label{
         display: none;
     }
