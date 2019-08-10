@@ -56,5 +56,11 @@ header label{
     header label{
         display: none;
     }
+    .container-ft{
+        position: absolute;
+        top: 100%;
+        left: 140vh;
+        
+        }
     
 }
